@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Kingdom of Princesses</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="petals-container"></div>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="crown">👑</div>
+
+        <p class="eyebrow">A ROYAL INVITATION</p>
+
+        <h1>Welcome to Your<br>Little Kingdom</h1>
+
+        <p class="hero-subtitle">
+            Because every girl deserves to feel like a princess.
+        </p>
+
+        <div class="hero-divider">✧ ♡ ✧</div>
+
+        <h2 id="heroName">Your Highness</h2>
+
+        <p id="royalTitle" class="royal-title"></p>
+        <p id="department" class="department"></p>
+
+        <button class="primary-btn" onclick="enterKingdom()">
+            Enter My Kingdom ♡
+        </button>
+    </header>
+
+
+    <main id="kingdom-content" class="hidden">
+
+        <!-- PERSONAL MESSAGE -->
+        <section class="section welcome-section">
+            <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+            <h2>Oh, Hello Princess! 💗</h2>
+
+            <p id="welcomeMessage"></p>
+        </section>
+
+
+        <!-- ROYAL ROAST -->
+        <section class="section">
+            <div class="section-icon">🤭</div>
+            <p class="eyebrow">WITH LOVE, OBVIOUSLY</p>
+            <h2>Your Royal Roast</h2>
+
+            <div class="message-card">
+                <p id="royalRoast"></p>
+            </div>
+        </section>
+
+
+        <!-- GROUP CHAT ANNOUNCEMENT -->
+        <section class="section">
+            <div class="section-icon">💌</div>
+            <p class="eyebrow">OFFICIAL KINGDOM BROADCAST</p>
+            <h2>Breaking Royal News!</h2>
+
+            <div class="chat-card">
+                <div class="chat-header">
+                    <span>👑 Princess Kingdom</span>
+                    <span>ONLINE</span>
+                </div>
+
+                <div class="chat-message">
+                    <p class="sender">Royal Administration</p>
+                    <p id="groupMessage"></p>
+                    <span class="chat-time">Just now ✨</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PERSONAL LETTER -->
+        <section class="section">
+            <div class="section-icon">💗</div>
+            <p class="eyebrow">SOMETHING FROM MY HEART</p>
+            <h2>A Letter For You</h2>
+
+            <div class="letter-card">
+                <p id="letterText"></p>
+                <p class="letter-signature">With lots of love, always ♡</p>
+            </div>
+        </section>
+
+
+        <!-- COMPLIMENT -->
+        <section class="section">
+            <div class="section-icon">🌷</div>
+            <p class="eyebrow">A LITTLE REMINDER</p>
+            <h2>Things You Should Never Forget</h2>
+
+            <div class="message-card">
+                <p id="compliment"></p>
+            </div>
+        </section>
+
+
+        <!-- ROYAL DECREE -->
+        <section class="section">
+            <div class="section-icon">📜</div>
+            <p class="eyebrow">BY ROYAL ORDER</p>
+            <h2>Your Royal Decree</h2>
+
+            <div class="message-card">
+                <ul id="decreeList"></ul>
+            </div>
+        </section>
+
+
+        <!-- VIRTUAL FLOWERS -->
+        <section class="section flower-section">
+            <div class="section-icon">💐</div>
+            <p class="eyebrow">SOME FLOWERS FOR YOU</p>
+            <h2>A Bouquet, Just For You</h2>
+
+            <div class="bouquet">💐</div>
+
+            <p>
+                Because you deserve flowers, compliments
+                and all the pretty things in the world.
+            </p>
+
+            <button class="secondary-btn" onclick="giveFlowers()">
+                Send Me Flowers 🌷
+            </button>
+        </section>
+
+
+        <!-- MUMMA SPECIAL BUTTON -->
+        <section id="mummaSpecial" class="section hidden">
+            <div class="section-icon">🌹</div>
+            <h2>A Little Something Extra</h2>
+
+            <p>
+                A little reminder of how loved you are ❤️
+            </p>
+
+            <button class="primary-btn" onclick="showerLove()">
+                Shower Me With Love 🌹
+            </button>
+        </section>
+
+
+        <!-- CERTIFICATE -->
+        <section class="section">
+            <p class="eyebrow">OFFICIALLY ROYAL</p>
+            <h2>Your Princess Certificate</h2>
+
+            <div class="certificate">
+                <div class="certificate-crown">👑</div>
+                <p class="eyebrow">CERTIFICATE OF ROYALTY</p>
+
+                <h2 id="certificateName">Princess</h2>
+
+                <p id="certificateText"></p>
+
+                <div class="certificate-seal">♡</div>
+
+                <p class="certificate-footer">
+                    Issued with love by the Royal Kingdom of Kasak
+                </p>
+            </div>
+        </section>
+
+
+        <!-- FINAL MESSAGE -->
+        <section class="section final-section">
+            <div class="crown">👑</div>
+
+            <p class="eyebrow">ONE LAST THING</p>
+
+            <h2>And Before You Go...</h2>
+
+            <p id="finalMessage"></p>
+
+            <h2 class="final-love">You are loved. Always. 💗</h2>
+
+            <button class="primary-btn" onclick="celebrate()">
+                Celebrate Princess Day ✨
+            </button>
+
+            <p class="ending-note">
+                Made with love, just for you.
+            </p>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Made with ♡ for my favourite girls.</p>
+        <p>The Princess Kingdom © 2026</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

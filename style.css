@@ -1,0 +1,452 @@
+
+/* ==============================
+   PRINCESS KINGDOM - MAIN DESIGN
+================================= */
+
+:root {
+    --pink: #e88bab;
+    --dark-pink: #bd527c;
+    --light-pink: #fff0f5;
+    --pale-pink: #fff8fb;
+    --cream: #fffaf5;
+    --text: #674453;
+    --muted: #9c7485;
+    --gold: #c69b54;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--pale-pink);
+    color: var(--text);
+    overflow-x: hidden;
+    line-height: 1.7;
+}
+
+/* BACKGROUND */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at 10% 15%, #fce1eb 0, transparent 30%),
+        radial-gradient(circle at 90% 80%, #f9e2ed 0, transparent 30%);
+    z-index: -2;
+}
+
+#petals-container {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 10;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:
+        linear-gradient(135deg, #fff1f6, #fce0eb, #fff7fa);
+    position: relative;
+}
+
+.crown {
+    font-size: 55px;
+    margin-bottom: 15px;
+    animation: crownFloat 3s ease-in-out infinite;
+}
+
+@keyframes crownFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.eyebrow {
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: var(--dark-pink);
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(42px, 8vw, 78px);
+    line-height: 1.15;
+    color: #9e466a;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 15px;
+    color: var(--muted);
+    max-width: 450px;
+}
+
+.hero-divider {
+    margin: 30px 0;
+    color: var(--pink);
+    font-size: 25px;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: var(--dark-pink);
+}
+
+.royal-title {
+    margin-top: 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    color: var(--text);
+}
+
+.department {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+/* BUTTONS */
+
+button {
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.primary-btn,
+.secondary-btn {
+    margin-top: 28px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.primary-btn {
+    color: white;
+    background: linear-gradient(135deg, #e98cad, #c95e87);
+    box-shadow: 0 8px 25px #d986a65c;
+}
+
+.secondary-btn {
+    color: var(--dark-pink);
+    background: white;
+    border: 1px solid #f1bfd0;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px #d986a66b;
+}
+
+/* MAIN CONTENT */
+
+#kingdom-content {
+    padding: 30px 15px;
+    animation: fadeIn 1s ease;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* SECTIONS */
+
+.section {
+    max-width: 760px;
+    margin: 65px auto;
+    padding: 45px 35px;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid #f8dce7;
+    border-radius: 25px;
+    box-shadow: 0 12px 40px #dca1b31a;
+}
+
+.section-icon {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 5vw, 38px);
+    color: #a64f73;
+    margin-bottom: 25px;
+}
+
+.section p {
+    font-size: 14px;
+    color: var(--text);
+}
+
+/* MESSAGE CARDS */
+
+.message-card {
+    padding: 30px;
+    background: var(--light-pink);
+    border-radius: 18px;
+    border: 1px solid #f6d7e3;
+    text-align: left;
+}
+
+.message-card p {
+    line-height: 2;
+}
+
+/* CHAT CARD */
+
+.chat-card {
+    background: #fff9fc;
+    border: 1px solid #f3d8e3;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.chat-header {
+    background: #f5dce7;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 700;
+    color: #984b6a;
+}
+
+.chat-message {
+    margin: 20px;
+    padding: 20px;
+    max-width: 90%;
+    background: white;
+    border-radius: 5px 18px 18px 18px;
+    box-shadow: 0 3px 12px #dba9ba24;
+}
+
+.sender {
+    font-weight: 700;
+    color: var(--dark-pink) !important;
+    font-size: 12px !important;
+    margin-bottom: 8px;
+}
+
+.chat-time {
+    display: block;
+    text-align: right;
+    font-size: 10px;
+    color: #b99aa8;
+    margin-top: 12px;
+}
+
+/* LETTER */
+
+.letter-card {
+    background: #fffaf5;
+    border: 1px solid #ecd8c4;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 8px 25px #c5a28a14;
+}
+
+.letter-card p {
+    line-height: 2;
+    margin-bottom: 18px;
+    white-space: pre-line;
+}
+
+.letter-signature {
+    color: var(--dark-pink) !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px !important;
+    font-style: italic;
+    text-align: right;
+}
+
+/* FLOWERS */
+
+.flower-section {
+    background: linear-gradient(145deg, #fff3f7, #fffafc);
+}
+
+.bouquet {
+    font-size: 85px;
+    margin: 20px 0;
+    animation: bouquetFloat 3s ease-in-out infinite;
+}
+
+@keyframes bouquetFloat {
+    0%, 100% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+}
+
+/* ROYAL DECREE */
+
+#decreeList {
+    list-style: none;
+    text-align: left;
+}
+
+#decreeList li {
+    padding: 12px 5px;
+    border-bottom: 1px dashed #edc5d4;
+    font-size: 14px;
+}
+
+#decreeList li::before {
+    content: "✧ ";
+    color: var(--dark-pink);
+    font-weight: bold;
+}
+
+/* CERTIFICATE */
+
+.certificate {
+    padding: 40px 25px;
+    background: linear-gradient(145deg, #fff8f0, #fff0f5);
+    border: 5px double #d5a3ad;
+    outline: 1px solid #e8c9a0;
+    outline-offset: 5px;
+    border-radius: 8px;
+}
+
+.certificate-crown {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.certificate h2 {
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+.certificate-seal {
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--gold);
+    border-radius: 50%;
+    color: var(--dark-pink);
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    margin: 25px auto;
+}
+
+.certificate-footer {
+    font-size: 11px !important;
+    color: var(--muted) !important;
+}
+
+/* FINAL SECTION */
+
+.final-section {
+    background: linear-gradient(145deg, #fce7ef, #fff5f8);
+    padding: 65px 35px;
+}
+
+.final-love {
+    margin-top: 30px;
+}
+
+.ending-note {
+    margin-top: 30px;
+    font-style: italic;
+    color: var(--muted) !important;
+}
+
+/* FLOATING HEARTS */
+
+.floating-heart {
+    position: fixed;
+    bottom: -30px;
+    pointer-events: none;
+    z-index: 100;
+    animation: heartRise 4s linear forwards;
+}
+
+@keyframes heartRise {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-110vh) rotate(40deg);
+        opacity: 0;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    padding: 35px 15px;
+    text-align: center;
+    background: #f9e5ed;
+    color: #a46c83;
+    font-size: 12px;
+}
+
+footer p + p {
+    margin-top: 5px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .section {
+        padding: 35px 22px;
+        margin: 35px auto;
+    }
+
+    .message-card,
+    .letter-card {
+        padding: 22px;
+    }
+
+    .chat-message {
+        margin: 12px;
+        max-width: 95%;
+    }
+
+    .certificate {
+        padding: 30px 15px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+}
