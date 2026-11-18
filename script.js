@@ -97,7 +97,6 @@ Happy Princess Day, my forever queen. ❤️`,
         special: true
     },
 
-
     // 3. VANDANA AUNTY
     "Vandana Aunty": {
         title: "The Kingdom's Second Mother 👑",
@@ -141,12 +140,8 @@ Happy Princess Day to my second mum. ❤️🎀`,
     },
 
 
+
     // 4. TEJASHWI
-    "Tejashwi": {
-
-
-
-    // 3. TEJASHWI
     "Tejashwi": {
         title: "The Soft-Hearted Strict Queen 👑",
         department: "Chief Ear-Pulling Officer & Minister of Secretly Caring",
@@ -189,7 +184,7 @@ Happy Princess Day, Tejashwi! Stay the lovely person you are. 🎀❤️`,
     },
 
 
-    // 4. AAKANKSHA
+    // 5. AAKANKSHA
     "Aakanksha": {
         title: "The Royal Gossip Partner 👑",
         department: "Chief Splitsvilla Investigation Officer",
@@ -232,7 +227,7 @@ Idiot! 🎀❤️`,
     },
 
 
-    // 5. JUHI
+    // 6. JUHI
     "Juhi": {
         title: "Minister of Random Plans & Bakchodi 👑",
         department: "Chief Spontaneous Adventure Officer",
@@ -275,7 +270,7 @@ Happy Princess Day, Juhi! Stay sweet, stay chaotic and never stop being you.
     },
 
 
-    // 6. UMA
+    // 7. UMA
     "Uma": {
         title: "The Keeper of Forever Memories 👑",
         department: "Chief Bench Partner & Minister of Girlhood Memories",
@@ -323,7 +318,7 @@ Happy Princess Day, my Uma. I miss you,and you'll always be my favourite bench p
     },
 
 
-    // 7. YANA
+    // 8. YANA
     "Yana": {
         title: "Minister of Masti & Mischief 👑",
         department: "Co-Founder of Chaos & Chief Gossip Officer",
@@ -362,7 +357,7 @@ Happy Princess Day, Yana! Keep being your adorable self. 🎀❤️`,
     },
 
 
-    // 8. MEHER
+    // 9. MEHER
     "Meher": {
         title: "The Queen of Girlhood 👑",
         department: "Chief Princess Treatment Officer & Minister of Making Everyone Feel Special",
