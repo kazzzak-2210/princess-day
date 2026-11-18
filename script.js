@@ -98,6 +98,54 @@ Happy Princess Day, my forever queen. ❤️`,
     },
 
 
+    // 3. VANDANA AUNTY
+    "Vandana Aunty": {
+        title: "The Kingdom's Second Mother 👑",
+        department: "Chief Gujarati Food Officer & Minister of Adi's Leg Pulling",
+
+        welcome: "Welcome, Vandana Aunty! This kingdom has a second mother, unlimited Gujarati food, and one very scared-but-loved citizen named Kasak. ❤️",
+
+        roast: "The sweetest person ever, but somehow Kasak still gets a little scared when she speaks. Feeds her like she's been starving for 47 days, makes her feel at home, and is also the number-one partner in pulling Adi's leg. Basically, a combination of love, food, and mild royal fear. 😭",
+
+        group: "Attention, royal citizens! Vandana Aunty has entered the kingdom. The Gujarati food department is officially the most powerful in the land. Adi's leg-pulling operations are now under joint management, Kasak's food supply is secured, and everyone is required to accept at least one extra serving. ❤️",
+
+        letter: `Dear Vandana Aunty,
+
+I don't think you realise how special you are to me. You're one of those people who make me feel loved in such a natural way, and honestly, you feel like another mother to me.
+
+I absolutely love being around you, talking to you, laughing with you and, of course, pulling Adi's leg together. 😭 There's something so comforting about you, and I genuinely feel so lucky to have your love in my life.
+
+And your Gujarati food? Oh my God. I don't think I can ever explain how happy good food made by someone who loves you can make you feel. Every time you feed me, it feels like a little piece of home. I think your love language is feeding people until they physically cannot eat anymore, and I'm definitely not complaining.
+
+You're the cutest and sweetest, although I must admit I am sometimes a little scared of you too. Just a little. Respectfully. 😂❤️
+
+Thank you for treating me with so much love, for making me feel welcome, for all the conversations, all the food, all the laughter and for being you.
+
+I hope you always stay this happy, healthy and full of love. You deserve so much happiness, and I hope I get to keep sharing little moments, conversations, food and Adi's leg-pulling sessions with you for a very, very long time.
+
+Happy Princess Day to my second mum. ❤️🎀`,
+
+        compliment: "You have the kindest heart, the warmest presence and a magical ability to make people feel at home — partly through your love and partly through your absolutely unbeatable Gujarati food.",
+
+        decrees: [
+            "Lifetime title of Kasak's second mum.",
+            "Official authority to feed Kasak whenever she visits.",
+            "Joint ownership of all Adi leg-pulling operations.",
+            "Unlimited conversations, laughter and love.",
+            "Permanent royal status in Kasak's heart."
+        ],
+
+        certificate: "For outstanding achievements in motherly love, legendary Gujarati food, sweetness, laughter and making Kasak feel like family.",
+
+        final: "Some people make you feel welcome, and some people make you feel like you're home. You're the second kind. I love you, Vandana Aunty. ❤️"
+    },
+
+
+    // 4. TEJASHWI
+    "Tejashwi": {
+
+
+
     // 3. TEJASHWI
     "Tejashwi": {
         title: "The Soft-Hearted Strict Queen 👑",
