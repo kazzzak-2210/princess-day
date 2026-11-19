@@ -402,7 +402,7 @@ Happy Princess Day, Meher! Keep being the pretty, sweet, loving little sunshine 
 
 };
 
-// MASI
+//10. MASI
 "Masi": {
     title: "The Queen of Elegance & Caffeine ☕👑",
     department: "Chief Coffee Partner & Minister of Being Effortlessly Gorgeous",
@@ -425,7 +425,7 @@ Happy Princess Day, Meher! Keep being the pretty, sweet, loving little sunshine 
 
     I'm so lucky to have you, and I hope we get endless coffee dates, random conversations, silly moments and memories together.
 
-    Never stop being the gorgeous, fun, lovely person you are. Love you, Masi! ❤️☕`,
+    Never stop being the gorgeous, fun, lovely person you are. ❤️☕`,
 
     compliment: "A perfect combination of beauty, elegance, warmth and fun. The kind of person who makes every coffee date and every room a little more special.",
 
