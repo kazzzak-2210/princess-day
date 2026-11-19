@@ -402,6 +402,46 @@ Happy Princess Day, Meher! Keep being the pretty, sweet, loving little sunshine 
 
 };
 
+// MASI
+"Masi": {
+    title: "The Queen of Elegance & Caffeine ☕👑",
+    department: "Chief Coffee Partner & Minister of Being Effortlessly Gorgeous",
+
+    welcome: "Welcome, Masi! The kingdom has officially become prettier, more elegant and significantly more fun. The coffee department is under your royal command. ❤️",
+
+    roast: "Imagine being this pretty, this elegant, this lovely AND this fun. Honestly, Masi, leave some charm for the rest of us. Kasak's favourite coffee partner, professional mood-lifter and the kind of person who can turn a simple coffee outing into the best part of the day. 😭☕",
+
+    group: "ROYAL ANNOUNCEMENT! Masi has entered the kingdom. All coffee dates are now royal appointments, looking gorgeous is mandatory (although she does it effortlessly), and having fun is officially the law. Anyone disturbing the coffee partnership will face immediate royal consequences. ☕❤️",
+
+    letter: `Dear Masi,
+
+    Where do I even begin? First of all, can we talk about how ridiculously pretty and elegant you are? Like, genuinely. You have that effortless kind of charm that makes everything look so graceful, and somehow you're also one of the most fun people to be around.
+
+    You're my favourite coffee partner, and I honestly love our coffee moments together. It's never just about the coffee; it's the conversations, the random fun, the laughter and simply spending time with you.
+
+    I love how lovely, sweet and full of life you are. You have this way of making even the simplest plans feel special. And honestly, having someone who is both this fun and this easy to be around is such a blessing.
+
+    Also, respectfully, you're hot. Like, ridiculously hot. And cute. And elegant. Basically, the entire package. 😭❤️
+
+    I'm so lucky to have you, and I hope we get endless coffee dates, random conversations, silly moments and memories together.
+
+    Never stop being the gorgeous, fun, lovely person you are. Love you, Masi! ❤️☕`,
+
+    compliment: "A perfect combination of beauty, elegance, warmth and fun. The kind of person who makes every coffee date and every room a little more special.",
+
+    decrees: [
+        "Lifetime title of Kasak's favourite coffee partner.",
+        "Official permission to be effortlessly gorgeous at all times.",
+        "Unlimited coffee dates with Kasak.",
+        "Mandatory supply of laughter, gossip and random conversations.",
+        "Permanent status as one of the kingdom's most loved queens."
+    ],
+
+    certificate: "For outstanding achievements in elegance, beauty, being ridiculously fun, and making every coffee date unforgettable.",
+
+    final: "Some people make coffee taste better just by being there. You're one of those people. Stay gorgeous, stay lovely and save me a seat for our next coffee date. ❤️☕"
+},
+
 
 // ==========================================
 // IDENTIFY THE PRINCESS FROM HER LINK
